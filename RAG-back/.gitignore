@@ -1,0 +1,78 @@
+# ===================================
+# BACKEND - Python/FastAPI
+# ===================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Vector Store (ChromaDB)
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentos cargados (si tienes carpeta data/)
+data/
+documents/
+uploads/
+
+# Langflow
+langflow.db
+.langflow/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/

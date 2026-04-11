@@ -1,0 +1,46 @@
+# ===================================
+# GITIGNORE RAÍZ - Sistema RAG
+# ===================================
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+**/chroma_db/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Documentos temporales
+*.tmp
+*.temp
+~$*
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos comprimidos temporales
+*.zip
+*.tar.gz
+*.rar
